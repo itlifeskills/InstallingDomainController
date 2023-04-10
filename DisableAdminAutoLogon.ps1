@@ -1,8 +1,8 @@
 $registryPath = "HKLM:\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon"
 $Name = "AutoAdminLogon"
-$User = "DefaultUserName"
+$DefaultPassword = "DisableAdminAutoLogon"
 $value = "0"
 Set-ItemProperty -Path $registryPath -Name $name -Value $value -Force | Out-Null
-Remove-ItemProperty -Path $registryPath -Name $User
+Set-ItemProperty $RegPath "DefaultPassword" -Value $DefaultPassword -type String
 
 
