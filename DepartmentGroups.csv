@@ -1,0 +1,10 @@
+Department,GroupName,FileServer,Location
+Accounting and Finance,grp-accounting-finance,CHIPVFS01,D:\Departments\Accounting and Finance
+Art and Design,grp-art-design,CHIPVFS01,D:\Departments\Art and Design
+Content and Review,grp-content-review,CHIPVFS01,D:\Departments\Content and Review
+Human Resources,grp-human-resources,CHIPVFS01,D:\Departments\Human Resources
+Information Technology,grp-information-technology,CHIPVFS01,D:\Departments\Information Technology
+Marketing,grp-marketing,CHIPVFS02,D:\Departments\Marketing
+Operations,grp-operations,CHIPVFS02,D:\Departments\Operations
+Research and Development,grp-research-development,CHIPVFS02,D:\Departments\Research and Development
+
